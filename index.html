@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferdy Setia">
+    <meta name="description" content="Caesar Cipher Encoder allows you to encode and decode text using the Caesar Cipher encryption method. Enter your text and shift value to get the result.">
+    <meta name="keywords" content="Caesar Cipher, text encryption, cipher encoder, encryption tool, shift cipher, encode, decode, text encoder">
+    <title>Caesar Cipher Encoder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1>Caesar Cipher Encoder</h1>
+
+    <form onsubmit="event.preventDefault(); caesarCipher();">
+        <label for="inputText">Enter Text:</label><br>
+        <textarea id="inputText" name="inputText" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="shift">Enter Shift (Shift):</label><br>
+        <input type="number" id="shift" name="shift" value="0" required><br><br>
+
+        <button type="submit">Convert</button>
+    </form>
+
+    <h2>Result:</h2>
+    <p id="outputText"></p>
+
+    <button id="copyButton" onclick="copyToClipboard()">Copy Text</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
