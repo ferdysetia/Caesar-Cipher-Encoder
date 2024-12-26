@@ -15,8 +15,6 @@ For example, if the key is 3:
 
 The substitution operates in a circular manner, so the last letter ("Z") wraps around to the first letter ("A").
 
--------------------------------------------------------------
-
 ## Steps to Use the Caesar Cipher Encoder?
 
 1. Enter the Text to Be Converted:
