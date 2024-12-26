@@ -1,9 +1,11 @@
 # Caesar-Cipher-Encoder
 Caesar Cipher Encoder allows you to encode text using the Caesar Cipher encryption method. Enter your text and shift value to get the result.
 
+## What is Caesar Cipher?
+
 The Caesar cipher is a classic cryptographic method used to encode messages. This technique was first employed by Julius Caesar, a Roman general and leader, to send secret messages to his subordinates. The Caesar cipher works by replacing each letter in the original text (plaintext) with another letter located at a specific position in the alphabet. The shift in letter positions is determined by a fixed value known as the key.
 
-How the Caesar Cipher Works?
+## How the Caesar Cipher Works?
 Each letter in the original text is replaced with a letter that is a few steps ahead or behind in the alphabet.
 For example, if the key is 3:
 
@@ -15,7 +17,7 @@ The substitution operates in a circular manner, so the last letter ("Z") wraps a
 
 -------------------------------------------------------------
 
-Steps to Use the Caesar Cipher Encoder:
+## Steps to Use the Caesar Cipher Encoder?
 
 1. Enter the Text to Be Converted:
 On the webpage, you will see a field labeled "Enter Text." Here, input the text you wish to encrypt using the Caesar Cipher.
